@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Calculator/static/css/main.f282c589.chunk.css",
+    "main.js": "/Calculator/static/js/main.4813961f.chunk.js",
+    "main.js.map": "/Calculator/static/js/main.4813961f.chunk.js.map",
+    "runtime~main.js": "/Calculator/static/js/runtime~main.8078b280.js",
+    "runtime~main.js.map": "/Calculator/static/js/runtime~main.8078b280.js.map",
+    "static/js/2.8a3a987c.chunk.js": "/Calculator/static/js/2.8a3a987c.chunk.js",
+    "static/js/2.8a3a987c.chunk.js.map": "/Calculator/static/js/2.8a3a987c.chunk.js.map",
+    "index.html": "/Calculator/index.html",
+    "precache-manifest.c5e2843630fdbe1e9a31b9b12dcb23b1.js": "/Calculator/precache-manifest.c5e2843630fdbe1e9a31b9b12dcb23b1.js",
+    "service-worker.js": "/Calculator/service-worker.js",
+    "static/css/main.f282c589.chunk.css.map": "/Calculator/static/css/main.f282c589.chunk.css.map",
+    "static/media/logo.svg": "/Calculator/static/media/logo.5d5d9eef.svg"
+  }
+}
