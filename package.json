@@ -1,0 +1,49 @@
+{
+  "name": "szymskiBeats",
+  "version": "1.0.0",
+  "description": "szymskiBeats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build:prod": "cross-env NODE_ENV=developlment webpack --mode production",
+    "start": "webpack-dev-server --mode development",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://szamon.github.io/szymskiBeats",
+  "keywords": [
+    "szymskiBeats",
+    "szymski"
+  ],
+  "author": "Szymon Majewski",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "autoprefixer": "^9.6.5",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-loader": "^3.0.2",
+    "file-loader": "^4.2.0",
+    "gh-pages": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "styled-components": "^4.4.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-merge": "^4.2.2"
+  }
+}
