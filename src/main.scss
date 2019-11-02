@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+body{
+    background: url('./assets/images/bg.jpg') center/cover;
+}
+
 .calculator{
     font-family: 'Roboto', sans-serif;
     margin: 30px auto;
@@ -7,6 +11,13 @@
     background: silver;
     overflow: hidden;
     padding: 5px 0 15px 0;
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: "992px"){
+    .calculator{
+        margin: calc(50vh - 180px) auto 0 auto;
+    }
 }
 
 .numBoard{
